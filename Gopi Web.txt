@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: black;
+  line-height: 1.8;
+}
+
+.w3-sidebar {width: 120px;background: #222;}
+#main {margin-left: 120px}
+ 
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+/* PAGE (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('gambar_laut.jpg');
+  min-height: 100%;
+}
+ 
+/* PAGE (Portfolio) */
+.bgimg-2 {
+  background-image: url("gambar_laut.jpg");
+  min-height: 400px;
+}
+ 
+/* PAGE (Contact) */
+.bgimg-3 {
+  background-image: url("gambar_laut.jpg");
+  min-height: 400px;
+}
+ 
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+ 
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+ 
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+
+
+
+ 
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center " id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Gopinath Chandran</h1>
+    <p>Faculty of Computer Science and Information Technology (UTHM)</p>
+    <img src="1.jpeg" alt="me" class="left">
+  </header>
+ 
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-32 w3-light-grey" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>Gopinath Chandran</em></p>
+  <p>Have a nice day to the visitors of this website. I am Gopinath Chandran, a student studying at Universiti Tun Hussein Onn Malaysia (UTHM). I am a 3rd Year student in the field of  Information Technology under the Faculty of Computer Science and Information Technology, UTHM. </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Gopinath Chandran</b></p><br>
+      <img src="1.jpeg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Me 2" width="400" height="222">
+      <p>Click on the image below to download my resume:<p>
+      <a href="GOPINATH INTERNSHIP RESUME.pdf" download="docicon.jpg">
+  <img src="docicon.jpg" alt="Dowload My Resume" width="104" height="104">
+</a>
+    </div>
+ 
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p> I am the elderst child of three siblings in my family. I was born on 16 August 2000 and was born in BantinG, Selangor. I am a former student at SMK Methodist Telok Datok Banting, Secondary School. I continued my studies at Universiti Tun Hussein Onn Malaysia Pagoh Campus majoring in Diploma in Information Technology. Then, once completed my internship, I continue my studies with a Bachelor's Degree in Information Technology at Universiti Tun Hussein Onn Malaysia at Batu Pahat. My hobby is playing badminton and freelancer. Furthermore, I like to go hiking because it is a fun and rewarding activity that offers physical and mental health benefits1. Hiking provides an opportunity to explore nature and enjoy scenic views12. While badminton is a great way to stay active and socialize with others who share the same interest.
+
+As a student, I have always strived for academic excellence. I made sure to attend all my classes, complete all my assignments on time, and study diligently for all my exams. I also sought help from my professors and peers whenever I faced any challenges. Being on the Degree student has not only boosted my confidence but has also opened up new opportunities for me. It has helped me stand out among my peers and has given me a competitive edge in the job market. I am proud of my achievement and will continue to strive for academic excellence in all my future endeavors.
+
+      </p>  
+  </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Soft skills</p>
+  
+  <p class="w3-left-align"><i class="fa fa-code"></i>Web Development</p>
+    <div class="w3-dark-grey">
+    <div class="w3-container w3-padding-small w3-black w3-center" style="width:80%">80%</div></div>
+    
+ 
+  <p class="w3-left-align"><i class="fa fa-file-image-o"></i>Application Development</p>
+    <div class="w3-dark-grey">
+    <div class="w3-container w3-padding-small w3-black w3-center" style="width:80%">80%</div>
+  </div>
+  <p class="w3-left-align"><i class="fa fa-desktop"></i>Programming</p>
+  <div class="w3-dark-grey">
+    <div class="w3-container w3-padding-small w3-black w3-center" style="width:85%">85%</div>
+  </div>
+ 
+  
+    
+  </div>
+</div>
+ 
+ 
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">90%</span><br>
+    Creativity 
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">95%</span><br>
+    Teamwork
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">95%</span><br>
+    Time Management
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">100%</span><br>
+    Problem-Solving
+  </div>
+ 
+</div>
+ 
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-black">My Photos</h2>
+    <hr style="width:50px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="car.jpg" style="width:100%">
+        <img src="house.jpg" style="width:100%">
+        <img src="grad.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="vac.jpg" style="width:100%">
+        <img src="food.jpg" style="width:100%">
+        <img src="teacher.jpg" style="width:100%">
+        <img src="fam.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+ 
+ 
+<!--BAHAGIAN VIDEO TIK TOK -->
+<div class="w3-content w3-container w3-padding-64" id="nasihat"></div>
+ 
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+ 
+<div class="w3-content w3-container w3-padding-64" id="">
+<p class="w3-center"><em> Soccer is not just a sport, it's a way of life. It keeps me healthy, fit, and strong while providing endless hours of fun and excitement.</em></p>
+<p class="w3-center"><em> "I really think a champion is defined not by their wins, but how they can recover when they fall." - Serena Williams.<em></p>
+</div>
+ 
+<div>
+<!--VIDEO -->
+ 
+<p class="w3-center">
+<video width="500" controls>
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+ 
+<a href="video.mp4" target="_blank"></a>.
+ 
+
+</div>
+ 
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+ 
+<!-- Third Parallax Image with Portfolio Text -->
+
+<div class="w3-content w3-container w3-padding-32 w3-light-grey" id="contact">
+
+ 
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center"><em>Free to contact for further details...</em></p>
+ 
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="gambar1.jpeg" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Jenjarom, Selangor.<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +60195764699<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: gopinathchandran1608@gmail.com<br>
+      </div>
+     
+      </form>
+</div>
+    </div>
+  </div>
+</div>
+ 
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>TOP</a>
+  <div class="w3-large w3-section">
+    <i class="fa fa-whatsapp"></i>
+    
+  </div>
+  <p>Created by <a href="https://api.whatsapp.com/send?phone=60195764699" title="Gopinath Chandran" target="_blank" class="w3-hover-text-green">Gopinath Chandran</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+ 
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+ 
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+ 
+</body>
+</html>
+
